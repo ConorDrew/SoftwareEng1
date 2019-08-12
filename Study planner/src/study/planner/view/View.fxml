@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="study.planner.view.ViewController">
+   <top>
+      <SplitPane minHeight="0.0" minWidth="0.0" orientation="VERTICAL" prefHeight="149.0" prefWidth="586.0" BorderPane.alignment="CENTER">
+         <items>
+            <VBox prefHeight="176.0" prefWidth="584.0">
+               <children>
+                  <HBox prefHeight="116.0" prefWidth="584.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="96.0" prefWidth="364.0">
+                           <children>
+                              <ImageView fitHeight="84.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../software-engineering-1/Study%20planner/src/images/uea-logo.gif" />
+                                 </image>
+                              </ImageView>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="UEA STUDY PLANNER" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font></Text>
+                           </children>
+                        </HBox>
+                        <Region minWidth="0.0" prefHeight="90.0" prefWidth="75.0" HBox.hgrow="ALWAYS" />
+                        <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Alerts">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <ListView fx:id="alertBox" maxWidth="200.0" prefHeight="200.0" prefWidth="200.0" />
+                           </children>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox layoutX="207.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Notifications" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <ListView fx:id="notificationBox" maxWidth="200.0" prefHeight="200.0" prefWidth="200.0" />
+                           </children>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="71.0" prefWidth="584.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="Name: " />
+                              <Text fx:id="getName" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" />
+                           </children>
+                        </HBox>
+                        <Region prefHeight="17.0" prefWidth="40.0" />
+                        <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="No: " />
+                              <Text fx:id="getID" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Number" />
+                           </children>
+                        </HBox>
+                        <Region layoutX="95.0" layoutY="20.0" prefHeight="29.0" prefWidth="29.0" />
+                        <HBox alignment="CENTER" layoutX="125.0" layoutY="10.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="School: " />
+                              <Text fx:id="getSchool" strokeType="OUTSIDE" strokeWidth="0.0" text="School Name" />
+                           </children>
+                        </HBox>
+                        <Region prefHeight="17.0" prefWidth="36.0" />
+                        <HBox alignment="CENTER" layoutX="240.0" layoutY="10.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="Year: " />
+                              <Text fx:id="getYear" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Year" />
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </items>
+      </SplitPane>
+   </top>
+   <center>
+      <VBox prefHeight="437.0" prefWidth="472.0" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+   </center>
+   <padding>
+      <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+   </padding>
+   <right>
+      <AnchorPane fx:id="navigationBox" prefHeight="51.0" prefWidth="1266.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuButton fx:id="modulesBtn" alignment="BASELINE_LEFT" layoutX="262.0" layoutY="1.0" mnemonicParsing="false" popupSide="BOTTOM" prefHeight="27.0" prefWidth="130.5" text="Modules">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <Button fx:id="studyDashboardBtn" alignment="BASELINE_LEFT" layoutY="1.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="130.5" text="Study Dashboard" />
+            <Button fx:id="semesterProfileBtn" alignment="BASELINE_LEFT" layoutX="131.0" layoutY="1.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="130.5" text="Semester Profile" />
+            <MenuButton fx:id="activitiesBtn" alignment="BASELINE_LEFT" layoutX="392.0" layoutY="1.0" mnemonicParsing="false" popupSide="BOTTOM" prefHeight="27.0" prefWidth="130.5" text="Activities">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Personal Activities" />
+                <MenuItem mnemonicParsing="false" text="Academic Activities" />
+              </items>
+            </MenuButton>
+            <MenuButton fx:id="tasksBtn" alignment="BASELINE_LEFT" layoutX="523.0" layoutY="1.0" mnemonicParsing="false" popupSide="BOTTOM" prefHeight="27.0" prefWidth="130.5" text="Tasks">
+                <items>
+                    <MenuItem fx:id="newTaskOption" mnemonicParsing="false" text="Create a new task" />
+                </items>
+            </MenuButton>
+            <MenuButton fx:id="milestonesBtn" alignment="BASELINE_LEFT" layoutX="654.0" layoutY="1.0" mnemonicParsing="false" popupSide="BOTTOM" prefHeight="27.0" prefWidth="130.5" text="Milestones">
+              <items>
+                <MenuItem fx:id="newMilestoneOption" mnemonicParsing="false" text="Create a new milestone" />
+              </items>
+            </MenuButton>
+            <TabPane fx:id="dashboardTabPane" layoutY="28.0" prefHeight="33.0" prefWidth="785.0" tabClosingPolicy="UNAVAILABLE" />
+         </children>
+      </AnchorPane>
+   </right>
+   <bottom>
+      <FlowPane fx:id="content" orientation="VERTICAL" prefHeight="406.0" prefWidth="786.0" prefWrapLength="500.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

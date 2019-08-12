@@ -1,0 +1,9 @@
+Task – main unit of study planning; something to be done which is constrained to specific event
+Event – an activity with specified date and time (i.e. coursework deadline, exam)
+Dependency – directional requirement to another task for a task to be completed (i.e. task 2 cannot be started until task 1 is finished)
+Activity – quantifiable means of progressing with a task (i.e. programming practice)
+Criterion – required activity for task completion
+Study Dashboard – part of application interface which is used for checking progress on tasks
+Milestones – intermediate criteria which are used to split a task into subtasks to better assess progress for bigger tasks
+Semester Study Profile – a selection of metadata provided by a school which include particular student’s modules, their timetabling and coursework deadlines and exam dates for a semester for the purpose of study planning (i.e. creating tasks, establishing dependencies)
+Note – an optional comment to the task or activity

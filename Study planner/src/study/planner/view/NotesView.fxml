@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="study.planner.view.NotesViewController">
+   <children>
+      <Pane prefHeight="226.0" prefWidth="363.0">
+         <children>
+            <Label layoutX="86.0" layoutY="22.0" text="Add Note to " />
+            <Label layoutX="36.0" layoutY="48.0" text="Note:" />
+            <AnchorPane layoutX="36.0" layoutY="65.0" prefHeight="112.0" prefWidth="292.0">
+               <children>
+                  <TextArea fx:id="mileDesc" layoutX="-9.0" prefHeight="112.0" prefWidth="301.0" promptText="Enter Description here..." />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="58.0" layoutY="187.0" prefHeight="27.0" prefWidth="243.0">
+               <children>
+                  <Button fx:id="createBtn" mnemonicParsing="false" prefHeight="27.0" prefWidth="99.0" text="Create" />
+                  <Button fx:id="cancelBtn" layoutX="144.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="99.0" text="Cancel" />
+               </children>
+            </AnchorPane>
+            <Text fx:id="taskName" layoutX="155.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

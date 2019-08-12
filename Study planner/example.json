@@ -1,0 +1,324 @@
+{
+	"Name":"CMPUG100261729/2",
+	"Modules":
+	{
+		"4":
+		[
+			{
+				"Code":"CMP-4002B",
+				"Semester":"SEM2",
+				"Weight":20,
+				"Name":"Computing Principles"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"EXAM",
+						"Description":"Electronic Test",
+						"Deadline":"2017\/02\/18",
+						"Weight":40	
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2017\/06\/09",
+						"Weight":60	
+					},
+				]
+			},
+			{
+				"Code":"CMP-4011A",
+				"Semester":"SEM1",
+				"Weight":20,
+				"Name":"Web-Based Programming"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Website Development",
+						"Deadline":"2016\/11\/16",
+						"Weight":20	
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Website Development using Py",
+						"Deadline":"2016\/12\/15",
+						"Weight":30	
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2017\/05\/18",
+						"Weight":50	
+					},
+				]
+			},
+			{
+				"Code":"CMP-4010B",
+				"Semester":"SEM2",
+				"Weight":20,
+				"Name":"Database Systems"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"SQL & Python Programming Exercise",
+						"Deadline":"2017\/05\/04",
+						"Weight":40	
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2017\/05\/30",
+						"Weight":60	
+					},
+				]
+			},
+			{
+				"Code":"CMP-4005Y",
+				"Semester":"YEAR_LONG",
+				"Weight":20,
+				"Name":"Mathematics for Computing B"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"EXAM",
+						"Description":"Coursework Quiz 1",
+						"Deadline":"2016\/11\/08",
+						"Weight":20	
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Coursework Quiz 2",
+						"Deadline":"2017\/03\/23",
+						"Weight":20	
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2017\/05\/27",
+						"Weight":60	
+					},
+				]
+			},
+			{
+				"Code":"CMP-4008Y",
+				"Semester":"YEAR_LONG",
+				"Weight":20,
+				"Name":"Programming 1"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Module Assessment Exercises 1",
+						"Deadline":"2016\/12\/08",
+						"Weight":20	
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Module Assessment Exercises 2",
+						"Deadline":"2017\/03\/23",
+						"Weight":30	
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2017\/05\/21",
+						"Weight":50	
+					},
+				]
+			},
+			{
+				"Code":"CMP-4013A",
+				"Semester":"SEM1",
+				"Weight":20,
+				"Name":"Systems Development"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Group Exercise - Presentation",
+						"Deadline":"2016\/12\/12",
+						"Weight":10	
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Group Exercise - Report",
+						"Deadline":"2016\/12\/15",
+						"Weight":40	
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2017\/06\/02",
+						"Weight":50	
+					},
+				]
+			}
+		],
+		"5":
+		[
+			{
+				"Code":"CMP-5013A",
+				"Semester":"SEM1",
+				"Weight":20,
+				"Name":"Architectures and Operating Systems"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Operating Systems Assignment",
+						"Deadline":"2017\/11\/08",
+						"Weight":25	
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Architecture Assignment",
+						"Deadline":"2018\/01\/17",
+						"Weight":25
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2018\/05\/31",
+						"Weight":50
+					}
+				]
+			},
+			{
+				"Code":"CMP-5014Y",
+				"Semester":"YEAR_LONG",
+				"Weight":20,
+				"Name":"Data Structures and Algorithms"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Module Assessment Exercises 1",
+						"Deadline":"2017\/11\/29",
+						"Weight":15
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Module Assessment Exercises 2",
+						"Deadline":"2018\/03\/14",
+						"Weight":35
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2018\/06\/11",
+						"Weight":35
+					},
+				]
+			},
+			{
+				"Code":"CMP-5010B",
+				"Semester":"SEM2",
+				"Weight":20,
+				"Name":"Graphics 1"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Programming Exercise & Report",
+						"Deadline":"2018\/05\/11",
+						"Weight":60
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2018\/06\/04",
+						"Weight":40
+					}
+				]
+			},
+			{
+				"Code":"CMP-5027A",
+				"Semester":"SEM1",
+				"Weight":20,
+				"Name":"Analogue and Digital Electronics"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Traffic Light Controller",
+						"Deadline":"2017\/10\/18",
+						"Weight":40
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Speech Communication",
+						"Deadline":"2017\/12\/12",
+						"Weight":40
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2018\/06\/08",
+						"Weight":20
+					}
+				]
+			},
+			{
+				"Code":"CMP-5015Y",
+				"Semester":"SEM2",
+				"Weight":20,
+				"Name":"Programming 2"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"C Coursework",
+						"Deadline":"2017\/11\/30",
+						"Weight":10
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Java Coursework",
+						"Deadline":"2018\/03\/20",
+						"Weight":25
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"C++ Coursework",
+						"Deadline":"2018\/05\/02",
+						"Weight":15
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2018\/06\/02",
+						"Weight":50
+					}
+				]
+			},
+			{
+				"Code":"CMP-5037",
+				"Semester":"SEM2",
+				"Weight":20,
+				"Name":"Networks"
+				"ModuleItems":
+				[
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"VoIP Demo & Report",
+						"Deadline":"2018\/03\/05",
+						"Weight":30	
+					},
+					{
+						"ItemType":"COURSEWORK",
+						"Description":"Monitoring Internet Performance",
+						"Deadline":"2018\/05\/11",
+						"Weight":30
+					},
+					{
+						"ItemType":"EXAM",
+						"Description":"Examination",
+						"Deadline":"2018\/05\/24",
+						"Weight":40
+					}
+				]
+			}
+		]
+	}
+}
